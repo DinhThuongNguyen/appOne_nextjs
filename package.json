@@ -3,13 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server/index.js",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "formik": "^2.2.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
+    "multer": "^1.4.2",
     "next": "10.0.4",
+    "node-sass": "^5.0.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.1.0",
+    "sharp": "^0.27.2",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.8"
   }
 }
